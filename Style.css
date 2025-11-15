@@ -1,0 +1,85 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+ul{
+    border: solid 1px;
+    width: 330px;
+    position: fixed;
+    height: 100%;
+    background-color: rgb(129, 143, 9);
+    padding-top: 60px;
+    list-style: none;
+}
+#text1 {
+color: rgb(16, 16, 15);
+font-size:30px;
+font-weight: bold;
+}
+#text2{
+    color: rgb(0, 0, 0);
+    font-size:25px;
+    font-weight: bold;
+}
+ul li{
+    border: solid 1px;
+    height: 50px;
+    width: 160px;
+    margin-left: 60px;
+    background-color: rgb(195, 208, 8);
+    text-align: center;
+    line-height: 50px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+ul li a{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+ul li:hover{
+background-color: rgb(42, 116, 165);
+}
+#Home{
+    border: solid 2px;
+    height: 780px;
+
+    background-color: rgba(122, 170, 218, 0.718);
+    padding-left: 400px;
+}
+#text3{
+    color: mediumturquoise;
+    font-size: 58px;
+}
+#text4{
+    color: rgba(7, 13, 0, 0.897);
+    font-size: 28px;
+}
+#text5{
+    font-size: 20px;
+    font-weight: bold;
+}
+#bt1{
+    height: 60px;
+    width: 200px;
+    background-color: rgb(0, 0, 1);
+    border-radius: 20px;
+    color: rgb(253, 252, 252);
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+#About{
+    border: solid 1px;
+    height:720px;
+    background-color: aqua;
+    padding-left: 335px;
+}
+#Aboutme{
+    font-size: 50px;
+    color: tomato;
+}
+html{
+    scroll-behavior: smooth;
+}
